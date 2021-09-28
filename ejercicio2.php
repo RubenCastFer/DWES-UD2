@@ -15,21 +15,21 @@
         $diagonalMayor = 6;
         $diagonalMenor = 3;
         $radio = 3;
-        define("PI", 3.14);
+        define("PI", 3.14159);
 
-        echo "Area Triangulo = ";
+        echo "El triangulo de base $base  y altura $altura  tiene un area de ";
         echo ($base * $altura)/2;
 
         echo "<p>";
-        echo "Area Cuadrado = ";
-        echo ($base * $altura);
+        echo "El cuadrado de base $base tiene un area de ";
+        echo ($base * $base);
 
         echo "<p>";        
-        echo "Area Rombo = ";
+        echo "El rombo de diagonal mayor $diagonalMayor y diagonal menor $diagonalMenor tiene un area de ";
         echo ($diagonalMayor * $diagonalMenor);
 
         echo "<p>";
-        echo "Area Circulo = ";
+        echo "El circulo de radio $radio tiene un area de ";
         echo (PI*$radio*$radio);
     ?>
     
