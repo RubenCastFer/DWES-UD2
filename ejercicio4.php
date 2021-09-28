@@ -35,12 +35,17 @@
         $zapatosConDescuentos*=$descuentoEspecialZapateria;
 
         $precioDeZapatos-=$zapatosConDescuentos;
+        $precioDeZapatos = round($precioDeZapatos, 2);
         echo "El precio de los zapatos con descuento es de $precioDeZapatos";
 
         $totalConDescuento = $total - $total * DESCUENTO/100;
         $totalConDescuento = round($totalConDescuento, 2);
         echo "<p>";
         echo "El total con descuento es de $totalConDescuento";
+
+        $totalConDescuento+=$precioDeZapatos;
+        echo "El total con descuento es de $totalConDescuento";
+
     ?>
 
 </body>
