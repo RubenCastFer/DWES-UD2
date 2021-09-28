@@ -17,19 +17,19 @@
         $radio = 3;
         define("PI", 3.14159);
 
-        echo "El triangulo de base $base  y altura $altura  tiene un area de ";
+        echo "El triangulo de base $base cm y altura $altura cm, tiene un area de ";
         echo ($base * $altura)/2;
 
         echo "<p>";
-        echo "El cuadrado de base $base tiene un area de ";
+        echo "El cuadrado de base $base cm, tiene un area de ";
         echo ($base * $base);
 
         echo "<p>";        
-        echo "El rombo de diagonal mayor $diagonalMayor y diagonal menor $diagonalMenor tiene un area de ";
+        echo "El rombo de diagonal mayor $diagonalMayor cm y diagonal menor $diagonalMenor cm, tiene un area de ";
         echo ($diagonalMayor * $diagonalMenor);
 
         echo "<p>";
-        echo "El circulo de radio $radio tiene un area de ";
+        echo "El circulo de radio $radio cm, tiene un area de ";
         echo (PI*$radio*$radio);
     ?>
     

@@ -42,7 +42,7 @@
         $totalConDescuento = round($totalConDescuento, 2);
         echo "<p>";
         echo "El total con descuento es de $totalConDescuento";
-
+        echo "<p>";
         $totalConDescuento+=$precioDeZapatos;
         echo "El total con descuento es de $totalConDescuento";
 
