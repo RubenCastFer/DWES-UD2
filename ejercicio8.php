@@ -13,11 +13,12 @@
 
         echo "valor de la variable $var";
         echo"<p>";
-        echo "Es un valor de tipo float: " ,var_export(is_integer($var));
+        echo "Es un valor de tipo integer: " ,var_export(is_integer($var));
         echo"<p>";
-        echo "Es un valor de tipo string: ", var_export(is_object($var));
+        echo "Es un valor de tipo object: ", var_export(is_object($var));
         echo"<p>";
-
+        echo "Es un valor nulo: " ,var_export(is_null($var));
+        echo"<p>";
         $var = 1.5;
         echo"<p>";
         echo "cambiamos el valor de la variable por $var";

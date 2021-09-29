@@ -36,9 +36,7 @@
         echo"<p>";
         echo $c;
         echo"<p>";
-        echo prueba();
-
-      
+        echo prueba();      
     ?>
 </body>
 </html>
